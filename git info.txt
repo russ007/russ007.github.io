@@ -1,0 +1,13 @@
+ssh keys are in Users/user
+
+
+# start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+> Agent pid 1382
+
+#add the key
+$ ssh-add ~/.ssh/id_ed25519
+
+
+
+git clone git@github.com:russ007/russ007.github.io.git
